@@ -21833,7 +21833,9 @@ iIiIiIiIiIT4P7qrsa29eEuDAAAAAElFTkSuQmCC
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
 the variance explained by the two first principal components is 0.7068, the variance for the 4 first principal components is 0.9311.
-The first dimension represents is the one that represents the consumer spending the best, since we will lose the least information by choosing this feature.</p>
+The first dimension represents is the one that represents the consumer spending the best, since we will lose the least information by choosing this feature.<br>
+The first principal component is composed mostly with the features Detergent_paper, grocery and Milk, those features correspond to clients that buy more in coffee shops, restaurants.
+The second principal component is composed mostly fresh, frozen and delicatessen, it will belong to a kind of customer that buys more in supermarkets.</p>
 
 </div>
 </div>
@@ -25132,8 +25134,8 @@ AAAA9IxCCAAAAKBnFEIAAAAAPfP/AcTDdtyifOeOAAAAAElFTkSuQmCC
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
 <ul>
-<li>A customer assigned to the cluster 0 will buy more in supermarkets where you can find more groceries, detergents and milk.</li>
-<li>A customer assigned to the cluster 1 will buy more in local markets where you can find fresh stuff.</li>
+<li>A customer assigned to the cluster 0, It's over the second quartile on the fresh and frozen features and around the first quartile on the rest of the features that makes me think that they buy more in local markets.</li>
+<li>A customer assigned to the cluster 1, It's around the third quartile on the milk, grocery and Detergent_paper and aorund the frist quartile for fresh food which leds me to think that they buy more in big supermakets.</li>
 </ul>
 
 </div>
@@ -25231,7 +25233,8 @@ Sample point 2 predicted to be in Cluster 0
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
 <p>It will affect more the cluster 1 given that they are the ones that expent most of the money on fresh food.
-If the fresh food gets deliver less often then the product in the shelf won't be as fresh.</p>
+If the fresh food gets deliver less often then the product in the shelf won't be as fresh.
+If  you run A/B experiment, it's better to run it first over one of the customer segments and after with the other in that way you can tell if they react differently to the change.</p>
 
 </div>
 </div>
